@@ -1,8 +1,8 @@
 :root{
-  --cinza : #EBEBEC;
+  --cinza: #EBEBEC;
   --preto: #272727;
-  --rosa:#f86197;
-  --verde:#36b59f;
+  --rosa: #f86197;
+  --verde: #36b59f;
 }
 *{
   margin: 0;
