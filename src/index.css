@@ -1,15 +1,49 @@
-:root{
-  --cinza : #EBEBEC;
-  --preto: #272727;
-  --rosa:#f86197;
-  --verde:#36b59f;
-}
-*{
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  overflow: hidden;
+  background-color: purple;
 }
 
-body{
-  background-color: var(--cinza);
+li {
+
+  float: left;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: plum;
+}
+
+.active {
+  background-color: purple;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
